@@ -43,7 +43,7 @@ def analyze_sales():
     # 2. Mengirim data ke Gemini untuk dianalisis
     try:
         print("Mengirim data ke Gemini untuk dianalisis...")
-        model = genai.GenerativeModel('gemini-pro')
+        model = genai.GenerativeModel('gemini-2.5-pro')
         
         # Membuat prompt yang jelas untuk Gemini
         prompt = f"""
